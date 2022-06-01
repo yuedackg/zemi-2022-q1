@@ -1,0 +1,56 @@
+div {
+	/* border: solid 1px orange; */
+}
+
+.container {
+	display: flex;
+
+}
+
+header img {
+	display: flex;
+
+}
+
+.yoko {
+	display: flex;
+	flex-direction: row;
+}
+
+.yoko>img {
+	width: 50px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	width: 100px;
+	border: solid 1px green;
+	border-radius: 15px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	/* margin: 0 auto; */
+	display: table-cell;
+}
+
+.item-group {
+	/* display: table-cell;
+	vertical-align: bottom; */
+}
+header > div{
+	/* display: table-cell; */
+	vertical-align: bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header {
+	/* border: hotpink 1px solid; */
+	display: flex;
+	justify-content: space-between;
+
+}

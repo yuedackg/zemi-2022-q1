@@ -1,0 +1,30 @@
+div {
+	border: solid 1px orange;
+}
+</style>
+<style>
+header{
+	display: flex;
+	justify-content: space-between;
+}
+.left-item{
+	display: flex;
+}
+.right-item{
+	display: flex;
+	width: 330px;
+	flex-direction:column;
+	justify-content: space-between;
+	
+}
+.right-item-sub{
+	display: flex;
+
+}
+.right-item-sub>div{
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	/* vertical-align: middle; */
+}
