@@ -1,0 +1,25 @@
+		/* 余白の調整 */
+		* img {
+			margin: 0px;
+			padding: 0px;
+
+		}
+
+		/* 絵の下の空間を削除する */
+		img {
+			vertical-align: bottom;
+		}
+
+		/* 並べる */
+		.container {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.moji{
+			font-size: 40pt;
+			color: red;
+			position: absolute;
+			top: 10px;
+			left: 40px;
+		}
