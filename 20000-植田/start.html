@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="start.css">
+	<style>
+		/* bodyの幅を800pxに設定する */
+		body {
+			width: 800px;
+			box-sizing: border-box;
+			margin: 0 auto;
+			/* 3つのレイアウト */
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		/* headerタグは横100％ */
+		header {
+			width: 100%;
+			background-color: darkcyan;
+		}
+
+		/* headerタグの中にあるh1 の文字の位置を真ん中にする*/
+		header h1 {
+			text-align: center;
+		}
+
+
+		/* navタグは、bodyタグの30％のサイズ */
+		nav {
+			width: 30%;
+			/* 背景色を緑にする */
+			background-color: darkgreen;
+			/* 文字の色をしろ  */
+			color: white;
+			/* 画面の高さを全画面にする */
+			height: 100vh;
+		}
+
+		/* mainはnavでとられた幅の残り */
+		main {
+			width: calc(100% - 30%);
+			/* 色は、darkgreenに近い色 */
+			background-color: rgb(4, 104, 4);
+			color: wheat;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>卒業ゼミの練習作品</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>プロフィール</li>
+			<li>野球関係の写真</li>
+			<li>野球の実績（年表）</li>
+			<li>注目している選手について</li>
+			<li>野球の道具について</li>
+		</ul>
+	</nav>
+	<main>
+		<section class="secProfile">
+			<h1>プロフィール</h1>
+			<table>
+				<tr>
+					<th>項目</th>
+					<th>内容</th>
+				</tr>
+				<tr>
+					<td>名前：</td>
+					<td>村山　個人</td>
+				</tr>
+				<tr>
+					<td>趣味：</td>
+					<td>野球</td>
+				</tr>
+				<tr>
+					<td>好きな食べ物：</td>
+					<td>カレー</td>
+				</tr>
+			</table>
+
+
+
+		</section>
+		<section class="secShasin">
+
+		</section>
+		<section class="secJisseki"></section>
+		<section class="secSenshu"></section>
+		<section class="secTools"></section>
+	</main>
+</body>
+
+</html>
